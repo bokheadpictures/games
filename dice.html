@@ -18,6 +18,7 @@ var die2 =  Math.floor(Math.random()*6 + 1);
 var score = die1+die2;
 alert('You rolled a '+die1+' and a '+die2+', for a score of '+score+'.');
 document.getElementById("roller").innerHTML='You rolled a '+die1+' and a '+die2+', for a score of '+score+'.';
+window.location="#loopr";
 }
 
 </script>
@@ -31,7 +32,7 @@ document.getElementById("roller").innerHTML='You rolled a '+die1+' and a '+die2+
 <a href="http://bokheadpictures.tk"><h1>Bokhead Pictures</h1></a><br><br><h2>Dice Game</h2><br><br>
 
 <button id = "roll" onclick="rolll()">Roll</button>
-<header id="roller"></header>
+  <section id="loopr"><header id="roller"></header></section>
 
 <div id="mySidenav" class="sidenav">
   <a href="https://bokheadpictures.github.io" id="about">Home</a>
